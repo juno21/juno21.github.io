@@ -32,9 +32,7 @@
 # in the templates via {{ site.myvariable }}.
 title: juno's blog
 subtitle: Hello World!
-description: 
-  This is the demo site for a Jekyll theme version of
-  HTML5 UP's sleek, responsive site template Prologue.
+description: This is the demo site for a Jekyll theme version of HTML5 UP's sleek, responsive site template Prologue.
 author: juno21
 email: junocho21@gmail.com
 avatar: assets/images/avatar.jpg
