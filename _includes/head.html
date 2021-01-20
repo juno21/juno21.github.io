@@ -3,6 +3,9 @@
     {%- include google_analytics.html -%}
   {%- endif -%}
   
+  {% if site.facebook_app_id %}
+  <meta property="fb:app_id" content="{{ facebook_app_id }}" />
+  {% endif %}
   <!-- Robots -->
   <meta name="robots" content="{{- page.robots | default: 'index, follow' -}}" />
   {%- unless page.canonical == false -%}<link rel="canonical" href="{{- page.url | absolute_url -}}" />{%- endunless -%}

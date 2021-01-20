@@ -8,7 +8,6 @@ layout: default
 <div id="main">
 	<!-- Post -->
 	<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v9.0" nonce="oyxtUob4"></script>
 	<article class="shade-two">
 	  <div class="container">
 			<header>
@@ -17,7 +16,6 @@ layout: default
 			</header>
 	    {{- content -}}
 	  </div>
-	  <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="5"></div>
-	</article>
-	
+	  </article>
+	  {% include comments.html %}
 </div>
