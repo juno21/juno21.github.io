@@ -15,8 +15,8 @@ layout: default
 				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
 			</header>
 		{{- content -}}
-		{% include comments.html %}
+		
 	  </div>
 	  </article>
-	  
+	  {% include comments.html %}  
 </div>
