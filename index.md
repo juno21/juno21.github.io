@@ -5,5 +5,5 @@
 layout: home
 title: Home
 icon: fa-home
-order: 2
+order: 1
 ---
