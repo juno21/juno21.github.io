@@ -22,4 +22,5 @@ layout: default
 		{%- assign _content = _excerpt | append: _link -%}
 		{%- include section.html title=_title subtitle=_subtitle content=_content -%}
 	{%- endfor -%}
+	{% include comments.html %} 
 </div>
