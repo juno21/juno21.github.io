@@ -33,10 +33,9 @@
 title: juno's blog
 subtitle: 
   Hello World!
-  <br><strong>NHN</strong>
-description: # this means to ignore newlines until "baseurl:"
-  This is the demo site for a Jekyll theme version of
-  HTML5 UP's sleek, responsive site template Prologue.
+  <br>NHN
+description: >- # this means to ignore newlines until "baseurl:"
+  This is juno's blog.
 author: juno21
 email: junocho21@gmail.com
 avatar: assets/images/avatar.jpg
